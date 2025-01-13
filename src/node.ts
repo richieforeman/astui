@@ -15,7 +15,7 @@ export const COMPONENT_MAP = new InjectionToken<
 
 
 /**
- * Renders a component node by mapping the node primitive type to an Angular component.
+ * Renders a node by mapping the node primitive type to an Angular component.
  * This allows nodes components to be dynamically defined.
  */
 @Component({
