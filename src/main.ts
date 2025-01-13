@@ -3,7 +3,7 @@ import {
   Type,
 } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
-import {ComponentNode, ComponentType, UIImage, UIListItem, UIText} from './types';
+import {ComponentNode, ComponentType} from './types';
 import { ImageImpl, ListImpl, ListItemImpl, ParagraphImpl, TextImpl } from './elements';
 import { COMPONENT_MAP, AstNode } from './node';
 import { ListImpl2, ListItemImpl2, ParagraphImpl2 } from './elements_2';
