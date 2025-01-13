@@ -22,7 +22,7 @@ const COMPONENT_AST_TREE: ComponentNode = {
     {
       item: {
         type: ComponentType.IMAGE,
-        src: 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXJxa21sOXQ2dGxhNDI4MGFlZTVoeGhkNHdqbzJxOWRydHcwOGljNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12ELmx0C4EFKcE/giphy.gif',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Cathedral_Rock_-_Sedona_AZ-1.jpg/300px-Cathedral_Rock_-_Sedona_AZ-1.jpg',
       },
     },
     {
