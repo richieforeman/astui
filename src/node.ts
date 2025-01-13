@@ -14,6 +14,10 @@ export const COMPONENT_MAP = new InjectionToken<
 >('componentMap');
 
 
+/**
+ * Renders a component node by mapping the node primitive type to an Angular component.
+ * This allows nodes components to be dynamically defined.
+ */
 @Component({
     selector: 'ui-node',
     template: `
@@ -25,5 +29,5 @@ export class AstNode {
     private readonly COMPONENT_MAP = inject(COMPONENT_MAP);
     protected readonly ComponentType = ComponentType;
     readonly node = input.required<ComponentNode>();
-    readonly type = computed(() => this.COMPONENT_MAP[this.node().item.type]);
+    readonly type = computed<Type<{}>>(() => this.COMPONENT_MAP[this.node().item.type]);
 }

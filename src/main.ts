@@ -32,13 +32,13 @@ const COMPONENT_AST_TREE: ComponentNode = {
         {
           item: {
             type: ComponentType.LIST_ITEM,
-            literal: 'HI',
+            literal: 'Check check, is this thing on?',
           },
         },
         {
           item: {
             type: ComponentType.LIST_ITEM,
-            literal: 'BYE',
+            literal: 'Check 1,2...',
           },
         },
       ],
@@ -46,7 +46,9 @@ const COMPONENT_AST_TREE: ComponentNode = {
   ],
 };
 
-
+/**
+ * Mapping used when dynamically rendering components.
+ */
 const COMPONENT_MAP_VALUE: Record<ComponentType, Type<{}>> = {
   [ComponentType.LIST]: ListImpl,
   [ComponentType.LIST_ITEM]: ListItemImpl,

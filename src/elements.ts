@@ -2,9 +2,7 @@ import {
     Component,
     input,
 } from '@angular/core';
-import { NgComponentOutlet } from '@angular/common';
-import { bootstrapApplication } from '@angular/platform-browser';
-import { ComponentNode, ComponentType, UIImage, UIListItem, UIText } from './types';
+import { ComponentNode, UIImage, UIListItem, UIText } from './types';
 import { AstNode } from './node';
 
 
